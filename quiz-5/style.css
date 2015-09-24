@@ -1,0 +1,67 @@
+body {
+	font-family: Verdana, Helvetica, Arial, Tahoma, "Bitstream Vera Sans", sans-serif;
+	background-color: #c70000;
+	padding: 60px;
+}
+
+#wrapper {
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 550px;
+    margin: 60px auto;
+    text-align: center;
+    background-color: #f8f8f8;
+    height: 100%;
+    min-height: 100%;
+    height:auto !important;
+    overflow: hidden !important; /* FF scroll-bar */ 
+  	width: 100%; 
+}
+
+h1 {
+	color: #c70000;
+	margin: 50px 0;
+}
+
+form {
+    margin-bottom:40px;
+}
+
+form input[type=text] {
+    display: inline-block;
+	padding: 0 5px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14pt;
+	width: 500px;
+}
+
+form input[type=submit] {
+	height: 25px;
+	display: block;
+	border: none;
+	color: black;
+	width: 50px;
+	background: white;
+	font-size: 16px;
+	text-transform: lowercase;
+	border: 1px solid #c70000;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	margin-top: 15px;
+	transform: translate(-50%, -50%);
+}
+
+
+
+#results .result {
+	background: #EEE;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#results .result p.input {
+	font-weight: bold;
+}
