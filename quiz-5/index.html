@@ -1,31 +1,30 @@
-
-<HTML>
+<!DOCTYPE html>
+<html>
 <head>
-<title>instapangram</title>
-<script src="jquery.min.js"></script>
+    <title>instapangram</title>
+    <script src="jquery.min.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <div id="wrapper">
 
-<link rel="stylesheet" type="text/css" href="styles.css" />
-    </head>
-    <body>
+        <h1>instapangram</h1>
 
-        <div id="wrapper" style="text-align: center">
+        <form>
+            <input type="text" name="sentence"/>
+            <input type="submit" value="GO"/>
+        </form>
 
-            <h1>instapangram</h1>
+        <div id="results"></div>
+        
+        <script id="results-template" type="text/html">
+            <div class="result">
+                <p class="input">[show the sentence that the user typed here]</p>
+                <p class="validation">This sentence ["is" or "is not"] a pangram!</p>
+            </div>
+        </script>
 
-            <form>
-                <input type="text" name="sentence" /><input type="submit" value="GO"
-                    style="width: 50px; background: #6699FF;"  /></form>
-
-    <div id="results">
-
-       </div>
-         <script id="results-template" type="text/html">
-                <div class="result">
-                    <p class="input">[show the sentence that the user typed here]</p>
-       <p>This sentence ["is" or "is not"] a pangram!</p>
     </div>
-</script>
-
-</div>
-        <script src="scripts.js" />
-   </body></html>
+</body>
+</html>
