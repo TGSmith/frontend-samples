@@ -1,12 +1,11 @@
+// #2 Create the lines of code needed below so that this script outputs the following text to the browser's console (i.e. using console.log()):
 
 function User(name) {
     this.name = name;
+    this.sayName = function(){ 
+        console.log("Hello, my name is " + this.name);
+    }
 }
-
-// Write your code here:
-// ---------------------
-
-// ---------------------
 
 var user1 = new User("Harry");
 user1.sayName();
